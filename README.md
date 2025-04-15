@@ -49,4 +49,4 @@ The app requests:
 ### APK Download
 
 You can download the APK here:  
-**[Download APK](#)** (Add the link to the hosted APK file)
+**[Download APK](https://github.com/V4run003/ToDoReminder/blob/master/app-debug.apk)**
