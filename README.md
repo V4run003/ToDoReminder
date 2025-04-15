@@ -1,77 +1,52 @@
-Todo Reminder App
-A simple todo app with reminders, built using Jetpack Compose, Kotlin, and Hilt. Manage todos, set reminders, and sync data between local and remote sources.
+# Todo Reminder App
 
-Features
-Add, edit, delete, and mark todos as completed.
+A simple todo app with reminders, built using Jetpack Compose, Kotlin, and Hilt. Manage todos, set reminders, and store them locally.
 
-Set reminders for todos.
+## Features
 
-Play todo text using Text-to-Speech.
+- Add, edit, delete, and mark todos as completed.
+- Set reminders for todos.
+- Play todo text using Text-to-Speech.
 
-Sync todos with a remote server and store them locally.
+## Tech Stack
 
-Tech Stack
-Kotlin & Jetpack Compose for UI
+- **Kotlin** & **Jetpack Compose** for UI
+- **Hilt** for dependency injection
+- **Room Database** for local storage
+- **Text-to-Speech** for reading todo details
 
-Hilt for dependency injection
+## Setup
 
-Room Database for local storage
+### Prerequisites
 
-Retrofit for API calls
+- Android Studio
+- Kotlin 1.4 or higher
 
-Text-to-Speech for reading todo details
+### Steps
 
-Setup
-Prerequisites
-Android Studio
+1. Clone the repository:
 
-Kotlin 1.4 or higher
+    ```bash
+    git clone https://github.com/yourusername/todoreminder.git
+    cd todoreminder
+    ```
 
-Steps
-Clone the repository:
+2. Open the project in Android Studio and sync Gradle.
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/todoreminder.git
-cd todoreminder
-Open the project in Android Studio and sync Gradle.
+3. Set up Hilt by following the [Hilt documentation](https://developer.android.com/training/dependency-injection/hilt-android).
 
-Set up Hilt by following the Hilt documentation.
+### Permissions
 
-Permissions
 The app requests:
+- **Internet** for basic functionality (if needed in future expansions).
+- **Notifications** to send reminders for todos.
 
-Internet for syncing todos.
+## Running the App
 
-Storage for local data storage.
+1. Open the project in Android Studio.
+2. Build and run the app on an emulator or device.
 
-Running the App
-Open the project in Android Studio.
+### APK Download
 
-Build and run the app on an emulator or device.
-
-APK Download
-You can download the APK here:
-Download APK (Add the link to the hosted APK file)
-
-Architecture
-MVVM (Model-View-ViewModel) architecture.
-
-Room for local storage.
-
-Retrofit for API integration.
-
-Contributing
-Fork the repository.
-
-Create a new branch: git checkout -b feature/your-feature.
-
-Make changes and commit: git commit -am 'Add new feature'.
-
-Push the changes: git push origin feature/your-feature.
-
-Create a pull request.
-
-License
-MIT License - see the LICENSE file for details.
+You can download the APK here:  
+**[Download APK](#)** (Add the link to the hosted APK file)
