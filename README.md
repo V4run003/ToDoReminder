@@ -27,7 +27,7 @@ A simple todo app with reminders, built using Jetpack Compose, Kotlin, and Hilt.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/todoreminder.git
+    git clone https://github.com/V4run003/todoreminder.git
     cd todoreminder
     ```
 
