@@ -14,6 +14,7 @@ A simple todo app with reminders, built using Jetpack Compose, Kotlin, and Hilt.
 - **Hilt** for dependency injection
 - **Room Database** for local storage
 - **Text-to-Speech** for reading todo details
+- **Retrofit** for handling APIs
 
 ## Setup
 
